@@ -24,27 +24,12 @@ Dir[File.join(File.dirname(__FILE__), 'support/**/*.rb')].each { |f| require f }
 
 # Requires factories defined in spree_core
 require 'spree/testing_support/factories'
-require 'spree/testing_support/controller_requests'
-require 'spree/testing_support/authorization_helpers'
-require 'spree/testing_support/url_helpers'
 
 # Requires factories defined in lib/spree_zero_stock_products/factories.rb
 require 'spree_zero_stock_products/factories'
 
-# Use PhantomJS for headless javascript testing
-require 'capybara/poltergeist'
-Capybara.javascript_driver = :poltergeist
-
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
-
-  # == URL Helpers
-  #
-  # Allows access to Spree's routes in specs:
-  #
-  # visit spree.admin_path
-  # current_path.should eql(spree.products_path)
-  config.include Spree::TestingSupport::UrlHelpers
 
   # == Mock Framework
   #
