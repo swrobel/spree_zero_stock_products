@@ -1,6 +1,8 @@
 SpreeZeroStockProducts [![Build Status](https://travis-ci.org/swrobel/spree_zero_stock_products.png?branch=2-0-stable)](https://travis-ci.org/swrobel/spree_zero_stock_products)
 ======================
 
+**This documentation is for the master branch. You probably want [2-0-stable](https://github.com/swrobel/spree_zero_stock_products/tree/2-0-stable) instead**
+
 Restore the `show_zero_stock_products` preference & related functionality in Spree 2.0+
 
 The preference defaults to true, which is the out-of-the-box behavior in Spree 2.0+
@@ -13,7 +15,7 @@ Installation
 Add spree_zero_stock_products to your Gemfile:
 
 ```ruby
-gem 'spree_zero_stock_products'
+gem 'spree_zero_stock_products', github: 'swrobel/spree_zero_stock_products'
 ```
 
 Bundle your dependencies:
