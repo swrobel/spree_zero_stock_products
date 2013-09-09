@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_zero_stock_products'
-  s.version     = '2.0.0'
+  s.version     = '2.0.1'
   s.summary     = 'Restore show_zero_stock_products functionality in Spree 2.0+'
   s.description = 'Restore show_zero_stock_products functionality in Spree 2.0+'
   s.required_ruby_version = '>= 1.9.3'
