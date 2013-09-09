@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'spree_core', '~> 2.0.0'
 
-  s.add_development_dependency 'database_cleaner', '< 1.1.0' # >= 1.1.0 is broken w/ SQLite3 https://github.com/bmabey/database_cleaner/issues/224
   s.add_development_dependency 'factory_girl', '~> 4.2'
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'rspec-rails',  '~> 2.13'
