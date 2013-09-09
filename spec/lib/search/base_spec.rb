@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Spree::Core::Search::Base do
 
   before do
-    stock_location = create(:stock_location)
+    stock_location = create(:stock_location, backorderable_default: false)
     @product_with_stock = create(:product)
     @product_out_of_stock = create(:product)
 
@@ -17,10 +17,11 @@ describe Spree::Core::Search::Base do
       Spree::Config[:show_zero_stock_products] = false
     end
 
-    it "returns all products by default" do
+    it "returns only in stock products" do
       params = { :per_page => "" }
       searcher = Spree::Core::Search::Base.new(params)
-      searcher.retrieve_products.count.should == 1
+      searcher.retrieve_products.should include @product_with_stock
+      searcher.retrieve_products.should_not include @product_out_of_stock
     end
   end
 
@@ -30,10 +31,11 @@ describe Spree::Core::Search::Base do
       Spree::Config[:show_zero_stock_products] = true
     end
 
-    it "returns all products by default" do
+    it "returns all products regardless of stock status" do
       params = { :per_page => "" }
       searcher = Spree::Core::Search::Base.new(params)
-      searcher.retrieve_products.count.should == 2
+      searcher.retrieve_products.should include @product_with_stock
+      searcher.retrieve_products.should include @product_out_of_stock
     end
   end
 end
