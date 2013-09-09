@@ -34,6 +34,20 @@ Profit.
 
 Testing
 -------
+This extension is tested against the following rubies:
+
+* 1.9.3
+* 2.0.0
+* jruby-19mode (but not w/ mysql until bug is fixed)
+* ruby-head (Travis failures allowed)
+
+As well as the following databases:
+
+* sqlite
+* postgres
+* mysql
+
+### Running the tests locally
 
 Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
 
