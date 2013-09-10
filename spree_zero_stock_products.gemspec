@@ -25,4 +25,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-rails',  '~> 2.13'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'durable_decorator_rails', '~> 0.1.0'
+  s.add_development_dependency 'coveralls'
 end
