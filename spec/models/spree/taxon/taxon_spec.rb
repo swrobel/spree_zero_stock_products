@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Spree::Taxon do
 
   before do
-    stock_location = create(:stock_location)
+    stock_location = create(:stock_location, backorderable_default: false)
     @product_with_stock = create(:product)
     @product_out_of_stock = create(:product)
 
