@@ -1,5 +1,8 @@
 # Spree Zero Stock Products Changelog
 
+## 2.1.0
+Spree ~> 2.1.0 compatibility
+
 ## 2.0.2
 Fix for Spree >= 2.0.5 because StockItems can now be deleted
 
