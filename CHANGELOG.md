@@ -1,10 +1,10 @@
-# Spree Zero Stock Products Changelog
-
 ## 2.1.0
-Spree ~> 2.1.0 compatibility
+
+* Spree ~> 2.1.0 compatibility
 
 ## 2.0.2
-Fix for Spree >= 2.0.5 because StockItems can now be deleted
+
+* Fix for Spree >= 2.0.5 because StockItems can now be deleted
 
 ## 2.0.1
 
@@ -13,4 +13,5 @@ Fix for Spree >= 2.0.5 because StockItems can now be deleted
 * Tested against jruby, postgres & mysql
 
 ## 2.0.0
-Initial release
+
+* Initial release
