@@ -48,8 +48,7 @@ This extension is tested against the following rubies:
 
 * 1.9.3
 * 2.0.0
-* jruby-19mode (but not w/ mysql until bug is fixed)
-* ruby-head (Travis failures allowed)
+* jruby-19mode
 
 As well as the following databases:
 
