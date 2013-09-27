@@ -2,7 +2,7 @@ Spree Zero Stock Products
 ======================
 [![Build Status](https://travis-ci.org/swrobel/spree_zero_stock_products.png?branch=2-0-stable)](https://travis-ci.org/swrobel/spree_zero_stock_products) [![Dependency Status](https://gemnasium.com/swrobel/spree_zero_stock_products.png)](https://gemnasium.com/swrobel/spree_zero_stock_products) [![Coverage Status](https://coveralls.io/repos/swrobel/spree_zero_stock_products/badge.png)](https://coveralls.io/r/swrobel/spree_zero_stock_products) [![Code Climate](https://codeclimate.com/github/swrobel/spree_zero_stock_products.png)](https://codeclimate.com/github/swrobel/spree_zero_stock_products)
 
-**This documentation is for the master branch. You probably want [2-0-stable](https://github.com/swrobel/spree_zero_stock_products/tree/2-0-stable) instead**
+**This documentation is for the master branch. You probably want [2-0-stable](https://github.com/swrobel/spree_zero_stock_products/tree/2-0-stable) or [2-1-stable](https://github.com/swrobel/spree_zero_stock_products/tree/2-1-stable) instead**
 
 Restore the `show_zero_stock_products` preference & related functionality in Spree 2.0+
 
