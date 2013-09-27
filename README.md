@@ -11,27 +11,35 @@ Set it to `false` to avoid showing products with zero stock on any product listi
 Installation
 ------------
 
-Add spree_zero_stock_products to your Gemfile:
+1. Add spree_zero_stock_products to your Gemfile:
 
-```ruby
-gem 'spree_zero_stock_products'
-```
+  ```ruby
+  gem 'spree_zero_stock_products', '~> 2.0.2'
+  ```
 
-Bundle your dependencies:
+1. Bundle your dependencies:
 
-```shell
-bundle
-```
+  ```shell
+  bundle
+  ```
 
-Set the preference in an intializer such as `config/initializers/spree.rb`:
+1. Set the preference in an intializer such as `config/initializers/spree.rb`:
 
-```ruby
-Spree.config do |config|
-  config.show_zero_stock_products = false # Default is true
-end
-```
+  ```ruby
+  Spree.config do |config|
+    config.show_zero_stock_products = false # Default is true
+  end
+  ```
 
-Profit.
+1. Profit.
+
+Versioning
+----------
+Versions files the pattern MAJOR.MINOR.PATCH [SemVer-style](http://semver.org/). MAJOR.MINOR version will always match the Spree version that gem is compatible with. PATCH version is incremented as new bugfix releases of this gem come out, indepently of new Spree PATCH versions.
+
+For example, version 2.1.0 is compatible with the Spree 2.1.x series, while version 2.0.4 is compatible with the Spree 2.0.x series.
+
+You should not need to worry about this, as the gemspec has the appropriate constraints. But hey, the more you know.
 
 Testing
 -------
