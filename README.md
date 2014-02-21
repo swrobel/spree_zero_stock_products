@@ -47,8 +47,10 @@ Testing
 This extension is tested against the following rubies:
 
 * 1.9.3
-* 2.0.0
+* 2.0
+* 2.1
 * jruby-19mode
+* jruby-20mode
 
 As well as the following databases:
 
