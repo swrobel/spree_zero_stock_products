@@ -10,7 +10,7 @@ Set it to `false` to avoid showing products with zero stock on any product listi
 
 Installation
 ------------
-**This documentation is for the master branch. You probably want [2-0-stable](https://github.com/swrobel/spree_zero_stock_products/tree/2-0-stable) or [2-1-stable](https://github.com/swrobel/spree_zero_stock_products/tree/2-1-stable) instead**
+**This documentation is for the master branch. You probably want [2-0-stable](https://github.com/swrobel/spree_zero_stock_products/tree/2-0-stable), [2-1-stable](https://github.com/swrobel/spree_zero_stock_products/tree/2-1-stable), or [2-2-stable](https://github.com/swrobel/spree_zero_stock_products/tree/2-2-stable) instead**
 
 1. Add spree_zero_stock_products to your Gemfile:
 
@@ -51,6 +51,7 @@ This extension is tested against the following rubies:
 * 2.1
 * jruby-19mode
 * jruby-20mode
+* rubinius (experimental)
 
 As well as the following databases:
 

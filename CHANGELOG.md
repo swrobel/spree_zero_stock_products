@@ -1,3 +1,7 @@
+## 2.2.0
+
+* Spree ~> 2.2.0 compatibility
+
 ## 2.1.0
 
 * Spree ~> 2.1.0 compatibility
