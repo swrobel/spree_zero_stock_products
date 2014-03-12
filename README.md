@@ -1,6 +1,6 @@
 Spree Zero Stock Products
 ======================
-[![Build Status](https://travis-ci.org/swrobel/spree_zero_stock_products.png?branch=master)](https://travis-ci.org/swrobel/spree_zero_stock_products) [![Dependency Status](https://gemnasium.com/swrobel/spree_zero_stock_products.png)](https://gemnasium.com/swrobel/spree_zero_stock_products) [![Coverage Status](https://coveralls.io/repos/swrobel/spree_zero_stock_products/badge.png)](https://coveralls.io/r/swrobel/spree_zero_stock_products) [![Code Climate](https://codeclimate.com/github/swrobel/spree_zero_stock_products.png)](https://codeclimate.com/github/swrobel/spree_zero_stock_products)
+[![Build Status](http://img.shields.io/travis/swrobel/spree_zero_stock_products/master.svg)](https://travis-ci.org/swrobel/spree_zero_stock_products) [![Dependency Status](http://img.shields.io/gemnasium/swrobel/spree_zero_stock_products.svg)](https://gemnasium.com/swrobel/spree_zero_stock_products) [![Coverage Status](http://img.shields.io/coveralls/swrobel/spree_zero_stock_products/master.svg)](https://coveralls.io/r/swrobel/spree_zero_stock_products) [![Code Climate](   http://img.shields.io/codeclimate/github/swrobel/spree_zero_stock_products.svg)](https://codeclimate.com/github/swrobel/spree_zero_stock_products)
 
 Restore the `show_zero_stock_products` preference & related functionality in Spree 2.0+
 
