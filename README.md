@@ -50,7 +50,7 @@ This extension is tested against the following rubies:
 * 2.0
 * 2.1
 * jruby-19mode
-* jruby-20mode
+* jruby-21mode (experimental)
 * rubinius (experimental)
 
 As well as the following databases:

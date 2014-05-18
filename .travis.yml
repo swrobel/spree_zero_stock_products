@@ -5,10 +5,10 @@ script:
 rvm:
   - 1.9.3
   - 2.0.0
-  - 2.1.0
+  - 2.1
   - jruby-19mode
-  - jruby-20mode
-  - rbx
+  - jruby-21mode
+  - rbx-2
 env:
   - DB=sqlite
   - DB=mysql
@@ -16,7 +16,8 @@ env:
 language: ruby
 matrix:
   allow_failures:
-    - rvm: rbx
+    - rvm: rbx-2
+    - rvm: jruby-21mode
 notifications:
   recipients:
     - swrobel@gmail.com
