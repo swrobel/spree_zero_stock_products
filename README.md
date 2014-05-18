@@ -48,6 +48,11 @@ This extension is tested against the following rubies:
 * 1.9.3
 * 2.0.0
 * jruby-19mode
+<<<<<<< HEAD
+=======
+* jruby-21mode (experimental)
+* rubinius (experimental)
+>>>>>>> 26709d8... Fix rubinius, add jruby-21mode instead of 20mode and use ruby 2.1.x
 
 As well as the following databases:
 
