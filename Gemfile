@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'spree', github: 'spree/spree', branch: 'master'
+gem 'spree_core', github: 'spree/spree', branch: 'master'
 
 platforms :jruby do
   gem 'activerecord-jdbcsqlite3-adapter'
