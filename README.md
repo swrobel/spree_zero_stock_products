@@ -1,6 +1,6 @@
 Spree Zero Stock Products
 ======================
-[![Build Status](http://img.shields.io/travis/swrobel/spree_zero_stock_products/2-2-stable.svg)](https://travis-ci.org/swrobel/spree_zero_stock_products) [![Dependency Status](http://img.shields.io/gemnasium/swrobel/spree_zero_stock_products.svg)](https://gemnasium.com/swrobel/spree_zero_stock_products) [![Coverage Status](http://img.shields.io/coveralls/swrobel/spree_zero_stock_products/2-2-stable.svg)](https://coveralls.io/r/swrobel/spree_zero_stock_products) [![Code Climate](   http://img.shields.io/codeclimate/github/swrobel/spree_zero_stock_products.svg)](https://codeclimate.com/github/swrobel/spree_zero_stock_products)
+[![Build Status](http://img.shields.io/travis/swrobel/spree_zero_stock_products/2-3-stable.svg?style=flat)](https://travis-ci.org/swrobel/spree_zero_stock_products) [![Dependency Status](http://img.shields.io/gemnasium/swrobel/spree_zero_stock_products.svg?style=flat)](https://gemnasium.com/swrobel/spree_zero_stock_products) [![Coverage Status](http://img.shields.io/coveralls/swrobel/spree_zero_stock_products/2-3-stable.svg?style=flat)](https://coveralls.io/r/swrobel/spree_zero_stock_products) [![Code Climate](   http://img.shields.io/codeclimate/github/swrobel/spree_zero_stock_products.svg?style=flat)](https://codeclimate.com/github/swrobel/spree_zero_stock_products)
 
 Restore the `show_zero_stock_products` preference & related functionality in Spree 2.0+
 
@@ -23,7 +23,7 @@ Installation
   bundle
   ```
 
-1. Set the preference in an intializer such as `config/initializers/spree.rb`:
+1. Set the preference in an initializer such as `config/initializers/spree.rb`:
 
   ```ruby
   Spree.config do |config|
