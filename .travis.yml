@@ -6,18 +6,13 @@ rvm:
   - 1.9.3
   - 2.0.0
   - 2.1
-  - jruby-19mode
-  - jruby-21mode
-  - rbx-2
 env:
   - DB=sqlite
   - DB=mysql
   - DB=postgres
 language: ruby
 matrix:
-  allow_failures:
-    - rvm: rbx-2
-    - rvm: jruby-21mode
+  fast_finish: true
 notifications:
   recipients:
     - swrobel@gmail.com
