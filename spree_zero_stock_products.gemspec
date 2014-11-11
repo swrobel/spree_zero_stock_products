@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_zero_stock_products'
-  s.version     = '2.3.0'
+  s.version     = '2.4.0'
   s.summary     = 'Restore show_zero_stock_products functionality in Spree 2.0+'
   s.description = 'Restore show_zero_stock_products functionality in Spree 2.0+'
   s.required_ruby_version = '>= 1.9.3'
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.3.0'
+  s.add_dependency 'spree_core', '~> 2.4.0.rc'
   s.add_dependency 'durable_decorator', '~> 0.2.0'
 
   s.add_development_dependency 'database_cleaner'
