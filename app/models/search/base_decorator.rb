@@ -1,7 +1,7 @@
 Spree::Core::Search::Base.class_eval do
 
 protected
-  durably_decorate :get_base_scope, mode: 'soft', sha: '0030f517d06459bfcde9ae18157806c3b702a71f' do
+  durably_decorate :get_base_scope, mode: 'soft', sha: '666c885704fa5faab8fe1ca64a7032b2c7d0253a' do
     if Spree::Config[:show_zero_stock_products]
       original_get_base_scope
     else

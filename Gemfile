@@ -1,15 +1,10 @@
 source 'https://rubygems.org'
 
-platforms :jruby do
-  gem 'activerecord-jdbcsqlite3-adapter'
-  gem 'activerecord-jdbcpostgresql-adapter'
-  gem 'activerecord-jdbcmysql-adapter'
-end
-
 platforms :ruby do
   gem 'sqlite3'
-  gem 'pg'
-  gem 'mysql2'
+  # The following 2 are only for TravisCI
+  gem 'pg' if ENV['DB'] == 'postgres'
+  gem 'mysql2' if ENV['DB'] == 'mysql'
 end
 
 gemspec
