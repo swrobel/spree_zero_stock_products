@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'spree_core', github: 'spree/spree', branch: 'master'
+# Need to use this patch until my fix for jruby/mysql is accepted
+gem 'spree_core', github: 'swrobel/spree', branch: 'patch-2'
 
 platforms :jruby do
   gem 'activerecord-jdbcsqlite3-adapter'
