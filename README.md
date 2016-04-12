@@ -49,8 +49,9 @@ This extension is tested against the following rubies:
 * 1.9.3
 * 2.0
 * 2.1
-* jruby-19mode
-* jruby-21mode (experimental)
+* 2.2
+* 2.3
+* jruby (experimental)
 * rubinius (experimental)
 
 As well as the following databases:
@@ -66,7 +67,7 @@ Be sure to bundle your dependencies and then create a dummy test app for the spe
 ```shell
 bundle
 bundle exec rake test_app
-bundle exec rspec spec
+bundle exec rspec
 ```
 
 License
